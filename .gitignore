@@ -20,6 +20,7 @@
 # Go workspace file
 go.work
 go.work.sum
+go.sum
 
 # ENV
 *.env
