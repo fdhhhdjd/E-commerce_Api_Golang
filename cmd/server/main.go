@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"github.com/fdhhhdjd/E-commerce_Api_Golang/internal/routers"
+)
 
 func main() {
-	fmt.Println("Hello Golang with Teacher Tai")
+	r := routers.NewRouter()
+	r.Run(":8002")
 }
